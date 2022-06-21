@@ -11,6 +11,7 @@ import com.crm.objectRepository.HomePage;
 public class VtigerCreateDocumentTest extends BaseClass{
 	@Test()
 	public void createDocumentTest() throws Throwable {
+		//get random number
 		 int randNum=jLib.getRandomNumber();
 		//fetching data from excelsheet
 		String documentTitle = eLib.readDataFromExcel("Document", 1, 0)+randNum;
