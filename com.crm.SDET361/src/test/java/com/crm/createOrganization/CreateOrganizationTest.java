@@ -19,7 +19,7 @@ public class CreateOrganizationTest extends BaseClass {
 	String groupName=eLib.readDataFromExcel("Organization", 3, 6);
 	String orgName=eLib.readDataFromExcel("Organization", 1, 7);
 	
-	//clicks on 'Organizations' 
+	//clicks on 'Organizations' //clicks on 'Organizations'
 	HomePage homePage = new HomePage(driver);
 	homePage.getOrganizationsLnk().click();
 	
