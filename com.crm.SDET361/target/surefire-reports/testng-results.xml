@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="135383" started-at="2022-06-21T15:21:37 IST" finished-at="2022-06-21T15:23:52 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="135383" started-at="2022-06-21T15:21:37 IST" finished-at="2022-06-21T15:23:52 IST">
+      <class name="com.crm.createCampaign.CreateCampaignsTest">
+        <test-method status="PASS" signature="bdConfig()[pri:0, instance:com.crm.createCampaign.CreateCampaignsTest@17579e0f]" name="bdConfig" is-config="true" duration-ms="25" started-at="2022-06-21T15:21:37 IST" finished-at="2022-06-21T15:21:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bdConfig -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.createCampaign.CreateCampaignsTest@17579e0f]" name="launchBrowser" is-config="true" duration-ms="7581" started-at="2022-06-21T15:21:37 IST" finished-at="2022-06-21T15:21:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.createCampaign.CreateCampaignsTest@17579e0f]" name="loginToApp" is-config="true" duration-ms="4311" started-at="2022-06-21T15:21:44 IST" finished-at="2022-06-21T15:21:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="createCampaignTest()[pri:0, instance:com.crm.createCampaign.CreateCampaignsTest@17579e0f]" name="createCampaignTest" duration-ms="29334" started-at="2022-06-21T15:21:49 IST" finished-at="2022-06-21T15:22:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignTest -->
+        <test-method status="PASS" signature="logOutFromApp()[pri:0, instance:com.crm.createCampaign.CreateCampaignsTest@17579e0f]" name="logOutFromApp" is-config="true" duration-ms="7843" started-at="2022-06-21T15:22:18 IST" finished-at="2022-06-21T15:22:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApp -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.crm.createCampaign.CreateCampaignsTest@17579e0f]" name="closeTheBrowser" is-config="true" duration-ms="686" started-at="2022-06-21T15:22:26 IST" finished-at="2022-06-21T15:22:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method status="PASS" signature="closeDBConfig()[pri:0, instance:com.crm.createCampaign.CreateCampaignsTest@17579e0f]" name="closeDBConfig" is-config="true" duration-ms="0" started-at="2022-06-21T15:23:53 IST" finished-at="2022-06-21T15:23:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConfig -->
+      </class> <!-- com.crm.createCampaign.CreateCampaignsTest -->
+      <class name="com.crm.createOrganization.CreateOrganizationTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.createOrganization.CreateOrganizationTest@646d64ab]" name="launchBrowser" is-config="true" duration-ms="6730" started-at="2022-06-21T15:23:06 IST" finished-at="2022-06-21T15:23:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.createOrganization.CreateOrganizationTest@646d64ab]" name="loginToApp" is-config="true" duration-ms="4414" started-at="2022-06-21T15:23:13 IST" finished-at="2022-06-21T15:23:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="createOrganizationTest()[pri:0, instance:com.crm.createOrganization.CreateOrganizationTest@646d64ab]" name="createOrganizationTest" duration-ms="24527" started-at="2022-06-21T15:23:17 IST" finished-at="2022-06-21T15:23:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method status="PASS" signature="logOutFromApp()[pri:0, instance:com.crm.createOrganization.CreateOrganizationTest@646d64ab]" name="logOutFromApp" is-config="true" duration-ms="9340" started-at="2022-06-21T15:23:42 IST" finished-at="2022-06-21T15:23:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApp -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.crm.createOrganization.CreateOrganizationTest@646d64ab]" name="closeTheBrowser" is-config="true" duration-ms="882" started-at="2022-06-21T15:23:51 IST" finished-at="2022-06-21T15:23:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.createOrganization.CreateOrganizationTest -->
+      <class name="com.crm.createDocument.VtigerCreateDocumentTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.createDocument.VtigerCreateDocumentTest@1b68ddbd]" name="launchBrowser" is-config="true" duration-ms="6383" started-at="2022-06-21T15:22:27 IST" finished-at="2022-06-21T15:22:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.createDocument.VtigerCreateDocumentTest@1b68ddbd]" name="loginToApp" is-config="true" duration-ms="4641" started-at="2022-06-21T15:22:33 IST" finished-at="2022-06-21T15:22:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="createDocumentTest()[pri:0, instance:com.crm.createDocument.VtigerCreateDocumentTest@1b68ddbd]" name="createDocumentTest" duration-ms="19644" started-at="2022-06-21T15:22:38 IST" finished-at="2022-06-21T15:22:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDocumentTest -->
+        <test-method status="PASS" signature="logOutFromApp()[pri:0, instance:com.crm.createDocument.VtigerCreateDocumentTest@1b68ddbd]" name="logOutFromApp" is-config="true" duration-ms="7950" started-at="2022-06-21T15:22:57 IST" finished-at="2022-06-21T15:23:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApp -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.crm.createDocument.VtigerCreateDocumentTest@1b68ddbd]" name="closeTheBrowser" is-config="true" duration-ms="1032" started-at="2022-06-21T15:23:05 IST" finished-at="2022-06-21T15:23:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.createDocument.VtigerCreateDocumentTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
