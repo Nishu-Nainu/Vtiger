@@ -15,7 +15,7 @@ import com.crm.objectRepository.HomePage;
 public class CreateCampaignsTest extends BaseClass{
 	@Test(retryAnalyzer = com.crm.genericUtilities.RetryAnalyser.class)
 	public void createCampaignTest() throws Throwable {
-		//fetching data from excelsheet
+		
 		
 		String campaignName = eLib.readDataFromExcel("Campaign",1, 2)+randNum;
 		String sponser = eLib.readDataFromExcel("Campaign",1, 4);
